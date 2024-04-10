@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Management</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Transaction Management Application</h1>
+    </div>
+
+    <div class="button-container">
+        <button id="createAppointmentBtn">Create Appointment</button>
+        <button id="editAppointmentBtn">Edit Appointment</button>
+        <button id="showAppointmentsBtn">Show Appointments</button>
+
+        <script>
+            document.getElementById("createAppointmentBtn").addEventListener("click", function () {
+                window.location.href = "/create";
+            });
+
+            document.getElementById("editAppointmentBtn").addEventListener("click", function () {
+                window.location.href = "/edit";
+            });
+
+            document.getElementById("showAppointmentsBtn").addEventListener("click", function () {
+                window.location.href = "/show";
+            });
+        </script>
+
+
+    </div>
+
+    <div class="content-container">
+        <!-- Content goes here -->
+    </div>
+</body>
+
+</html>

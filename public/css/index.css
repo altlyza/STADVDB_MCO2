@@ -1,0 +1,36 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.button-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 200px;
+    z-index: 1001;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.button-container button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.content-container {
+    margin-top: 100px;
+}
