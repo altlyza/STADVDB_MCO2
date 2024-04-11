@@ -26,6 +26,18 @@
     border-radius: 15px;
 }
 
+#homeBtn {
+    position: absolute;
+    left: 0;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+#homeBtn:hover {
+    background-color: lightgray;
+}
+
+
 .button-container button:hover {
     background-color: #555;
     color: #fff;
@@ -33,4 +45,46 @@
 
 .content-container {
     margin-top: 100px;
+}
+
+.edit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Optional: Add styles to control positioning, width, padding, etc. */
+    height: 100vh;
+    /* Center vertically */
+    margin-top: -70px;
+    /* Adjust as needed */
+}
+
+.edit-container label {
+    /* Styles for the label */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.edit-container input[type="text"] {
+    /* Styles for the input field */
+    width: 200px;
+    /* Adjust width as needed */
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    /* Add some space between input field and button */
+}
+
+.edit-container button {
+    /* Styles for the button */
+    padding: 8px 12px;
+    background-color: #007bff;
+    /* Blue color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-container button:hover {
+    background-color: #0056b3;
+    /* Darker shade of blue on hover */
 }
